@@ -1,0 +1,135 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 350px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #00aaff;
+  margin-bottom: 25px;
+}
+.form {
+  max-width: 400px;       /* largeur max du formulaire */
+  margin: 50px auto;      /* centre horizontalement et ajoute un espace en haut/bas */
+  padding: 20px;          /* espace intérieur */
+  background: #fff;       /* fond blanc (optionnel) */
+  border-radius: 12px;    /* coins arrondis */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* petite ombre */
+}
+.form input,
+.form button {
+  width: 100%;
+  box-sizing: border-box; /* IMPORTANT : évite le dépassement */
+}
+.form input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.form button {
+  width: 100%;
+  padding: 12px;
+  background: #00aaff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: #008ecc;
+}
+
+
+
+.css
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+header {
+  background: #00aaff;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+}
+
+aside {
+  width: 200px;
+  background: #fff;
+  padding: 20px;
+  min-height: 100vh;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+css
+body {
+  background-color: white;
+  color: #4f4f4f; /* gris foncé pour le texte général */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+h1, h2, h3 {
+  color: #007BFF; /* bleu pour les titres */
+  font-weight: bold;
+}
+
+p {
+  color: #4f4f4f;
+}
+
+a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+strong {
+  color: #333;
+}
+
+.espace-pub {
+  color: #888; /* gris clair pour les zones comme les pubs */
+  font-style: italic;
+  margin-top: 30px;
+}
+
+
